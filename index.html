@@ -1,823 +1,630 @@
 <!DOCTYPE html>
-<!-- saved from url=(0030)https://flowcv.me/nathangrange -->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-      <title>Nathan Grange</title>
-      <link rel="icon" href="/assets/bar-graph.png">
-      <style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
-        margin:0;
-        padding:0;
-        border:0;
-        font-size:100%;
-        font:inherit;
-        vertical-align:baseline
-    }
-    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
-        display:block
-    }
-    body{
-        line-height:1
-    }
-    ol,ul{
-        list-style:none
-    }
-    blockquote,q{
-        quotes:none
-    }
-    blockquote:after,blockquote:before,q:after,q:before{
-        content:'';
-        content:none
-    }
-    table{
-        border-collapse:collapse;
-        border-spacing:0
-    }
-    *,:after,:before{
-        box-sizing:border-box
-    }
-    </style> <style>*,:after,:before{
-        box-sizing:border-box
-    }
-    html{
-        font-synthesis:none;
-        -moz-osx-font-smoothing:grayscale;
-        -webkit-font-smoothing:antialiased;
-        font-smooth:antialiased;
-        -webkit-overflow-scrolling:touch;
-        /* scrollbar-width:none!important */
-    }
-    body{
-        min-height:100vh;
-        display:flex;
-        flex-direction:column;
-        position:relative;
-        font-weight:400;
-        font-display:swap;
-        font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
-        color:#444;
-        line-height:1.6;
-        font-size:1.4rem
-    }
-    button{
-        cursor:pointer;
-        padding:0;
-        background-color:inherit
-    }
-    img{
-        width:100%;
-        height:auto
-    }
-    a{
-        text-decoration:none
-    }
-    strong{
-        font-weight:700
-    }
-    @media screen and (max-width:1040px){
-        html{
-            font-size:59%
-        }
-    }
-    @media screen and (min-width:768px){
-        html{
-            font-size:62.5%
-        }
-    }
-    @media screen and (min-width:1024px){
-        html{
-            font-size:62.5%
-        }
-    }
-    </style> <style>@font-face{
-        font-family:'Open Sans';
-        src:url(https://prod.flowcvassets.com/fonts/opensans/opensans-400-normal.woff2) format('woff2');
-        font-weight:400;
-        font-style:normal;
-        font-stretch:normal;
-        font-display:swap
-    }
-    @font-face{
-        font-family:'Open Sans';
-        src:url(https://prod.flowcvassets.com/fonts/opensans/opensans-700-normal.woff2) format('woff2');
-        font-weight:700;
-        font-style:normal;
-        font-stretch:normal;
-        font-display:swap
-    }
-    @font-face{
-        font-family:'Open Sans';
-        src:url(https://prod.flowcvassets.com/fonts/opensans/opensans-400-italic.woff2) format('woff2');
-        font-weight:400;
-        font-style:italic;
-        font-stretch:normal;
-        font-display:swap
-    }
-    @font-face{
-        font-family:'Open Sans';
-        src:url(https://prod.flowcvassets.com/fonts/opensans/opensans-700-italic.woff2) format('woff2');
-        font-weight:700;
-        font-style:italic;
-        font-stretch:normal;
-        font-display:swap
-    }
-    </style> <style data-styled="true" data-styled-version="5.3.11">
-    /*!sc*/
-    a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
-        margin:0;
-        padding:0;
-        border:0;
-        font-size:100%;
-        font:inherit;
-        vertical-align:baseline
-    }
-    /*!sc*/
-    article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{
-        display:block
-    }
-    /*!sc*/
-    [hidden]{
-        display:none
-    }
-    /*!sc*/
-    body{
-        line-height:1
-    }
-    /*!sc*/
-    menu,ol,ul{
-        list-style:none
-    }
-    /*!sc*/
-    blockquote,q{
-        quotes:none
-    }
-    /*!sc*/
-    blockquote:after,blockquote:before,q:after,q:before{
-        content:'';
-        content:none
-    }
-    /*!sc*/
-    table{
-        border-collapse:collapse;
-        border-spacing:0
-    }
-    /*!sc*/
-    html{
-        /* -webkit-scrollbar-width:none!important;
-        -moz-scrollbar-width:none!important;
-        -ms-scrollbar-width:none!important;
-        scrollbar-width:none!important; */
-        box-sizing:border-box;
-        font-size:59%
-    }
-    /*!sc*/
-    /* html::-webkit-scrollbar{
-        display:none
-    } */
-    /*!sc*
-    /*,:after,:before{
-        box-sizing:border-box
-    }
-    /*!sc*/
-    body{
-        width:100%;
-        min-height:100vh;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        position:relative;
-        font-synthesis:none;
-        -moz-osx-font-smoothing:grayscale;
-        -webkit-font-smoothing:antialiased;
-        font-smoothing:antialiased;
-        font-weight:400;
-        font-display:swap
-    }
-    /*!sc*/
-    button{
-        cursor:pointer;
-        padding:0;
-        background-color:inherit
-    }
-    /*!sc*/
-    img{
-        width:100%;
-        height:auto
-    }
-    /*!sc*/
-    a{
-        -webkit-text-decoration:none;
-        text-decoration:none
-    }
-    /*!sc*/
-    strong{
-        font-weight:700
-    }
-    /*!sc*/
-    data-styled.g2[id=sc-global-iKAKTM1]{
-        content:"sc-global-iKAKTM1,"
-    }
-    /*!sc*/
-    .gBpjzk{
-        font-size:3.5100000000000007rem;
-        line-height:4.0365rem;
-        margin-bottom:1.5rem
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .gBpjzk{
-            font-size:3.9000000000000004rem;
-            line-height:4.485rem;
-            margin-bottom:1.875rem
-        }
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .gBpjzk{
-            max-width:80vw
-        }
-    }
-    /*!sc*/
-    data-styled.g7[id=sc-dcJsrY]{
-        content:"gBpjzk,"
-    }
-    /*!sc*/
-    .fYFaLx{
-        font-size:5.265000000000001rem;
-        line-height:5.791500000000001rem;
-        margin-bottom:1.5rem;
-        font-weight:700;
-        -webkit-letter-spacing:-.04rem;
-        -moz-letter-spacing:-.04rem;
-        -ms-letter-spacing:-.04rem;
-        letter-spacing:-.04rem
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .fYFaLx{
-            font-size:5.8500000000000005rem;
-            line-height:6.435000000000001rem;
-            margin-bottom:1.875rem
-        }
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .fYFaLx{
-            max-width:80vw
-        }
-    }
-    /*!sc*/
-    data-styled.g8[id=sc-iGgWBj]{
-        content:"fYFaLx,"
-    }
-    /*!sc*/
-    .dLpymK{
-        width:100%;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-flex-wrap:wrap;
-        -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
-        -webkit-box-pack:center;
-        -webkit-justify-content:center;
-        -ms-flex-pack:center;
-        justify-content:center;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center;
-        -webkit-align-self:center;
-        -ms-flex-item-align:center;
-        align-self:center
-    }
-    /*!sc*/
-    /*!sc*/
-    data-styled.g11[id=sc-imWYAI]{
-        content:"dLpymK,"
-    }
-    /*!sc*/
-    .Iduff{
-        width:5.9799999999999995rem;
-        height:5.9799999999999995rem;
-        border:1px solid;
-        margin:.8580000000000001rem;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-pack:center;
-        -webkit-justify-content:center;
-        -ms-flex-pack:center;
-        justify-content:center;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center;
-        cursor:pointer;
-        border-radius:4px;
-        background-color:none;
-        -webkit-text-decoration:none;
-        text-decoration:none;
-        color:inherit;
-        -webkit-transition:.3s;
-        transition:.3s
-    }
-    /*!sc*/
-    .Iduff:hover{
-        opacity:.6
-    }
-    /*!sc*/
-    .Iduff svg{
-        height:2.6rem;
-        fill:#212121
-    }
-    /*!sc*/
-    data-styled.g14[id=sc-kpDqfm]{
-        content:"Iduff,"
-    }
-    /*!sc*/
-    .gnPinI{
-        width:100%;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        margin-bottom:3rem;
-        -webkit-box-pack:center;
-        -webkit-justify-content:center;
-        -ms-flex-pack:center;
-        justify-content:center;
-        text-align:center
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .gnPinI{
-            -webkit-flex-direction:row;
-            -ms-flex-direction:row;
-            flex-direction:row;
-            -webkit-align-items:center;
-            -webkit-box-align:center;
-            -ms-flex-align:center;
-            align-items:center
-        }
-    }
-    /*!sc*/
-    .gnPinI img{
-        -webkit-transition:width .3s;
-        transition:width .3s;
-        max-width:14.4rem;
-        min-width:0;
-        -webkit-align-self:center;
-        -ms-flex-item-align:center;
-        align-self:center
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .gnPinI img{
-            max-width:86rem
-        }
-    }
-    /*!sc*/
-    .gnPinI>:first-child{
-        margin-top:0!important;
-        margin-left:0!important
-    }
-    /*!sc*/
-    .gnPinI>:last-child{
-        margin-bottom:0!important;
-        margin-right:0!important
-    }
-    /*!sc*/
-    data-styled.g15[id=sc-dAlyuH]{
-        content:"gnPinI,"
-    }
-    /*!sc*/
-    .gsJfOs{
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center
-    }
-    /*!sc*/
-    data-styled.g16[id=sc-jlZhew]{
-        content:"gsJfOs,"
-    }
-    /*!sc*/
-    .gObydx{
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column
-    }
-    /*!sc*/
-    .gObydx>:first-child{
-        margin-top:0!important;
-        margin-left:0!important
-    }
-    /*!sc*/
-    .gObydx>:last-child{
-        margin-bottom:0!important;
-        margin-right:0!important
-    }
-    /*!sc*/
-    data-styled.g17[id=sc-cwHptR]{
-        content:"gObydx,"
-    }
-    /*!sc*/
-    .lbUcHj{
-        width:100%;
-        overflow:hidden;
-        color:rgba(0,0,0,.75);
-        white-space:pre-wrap;
-        word-break:break-word
-    }
-    /*!sc*/
-    .lbUcHj strong{
-        font-weight:700
-    }
-    /*!sc*/
-    .lbUcHj em{
-        font-style:italic
-    }
-    /*!sc*/
-    .lbUcHj br{
-        line-height:.6
-    }
-    /*!sc*/
-    data-styled.g19[id=sc-cPiKLX]{
-        content:"lbUcHj,"
-    }
-    /*!sc*/
-    .iTfvmd{
-        font-size:2.3400000000000003rem;
-        line-height:3.5100000000000007rem
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .iTfvmd{
-            font-size:2.6rem;
-            line-height:3.9000000000000004rem
-        }
-    }
-    /*!sc*/
-    data-styled.g21[id=sc-eDPEul]{
-        content:"iTfvmd,"
-    }
-    /*!sc*/
-    .hfKrcm{
-        width:100%;
-        white-space:pre-wrap;
-        margin-bottom:3rem;
-        text-align:center;
-        /* overflow-y:auto;
-        overflow-x:hidden */
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .hfKrcm{
-            max-width:80vw
-        }
-    }
-    /*!sc*/
-    .hfKrcm strong{
-        font-weight:700
-    }
-    /*!sc*/
-    .hfKrcm em{
-        font-style:italic
-    }
-    /*!sc*/
-    .hfKrcm br{
-        line-height:.6
-    }
-    /*!sc*/
-    .hfKrcm a{
-        -webkit-text-decoration:underline;
-        text-decoration:underline;
-        color:inherit
-    }
-    /*!sc*/
-    data-styled.g23[id=sc-fPXMVe]{
-        content:"hfKrcm,"
-    }
-    /*!sc*/
-    .bpuKdW{
-        width:100%;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-pack:center;
-        -webkit-justify-content:center;
-        -ms-flex-pack:center;
-        justify-content:center
-    }
-    /*!sc*/
-    data-styled.g24[id=sc-gFqAkR]{
-        content:"bpuKdW,"
-    }
-    /*!sc*/
-    .ktYxNr{
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        gap:.6rem;
-        border-radius:4px;
-        font-weight:700;
-        font-size:2.3400000000000003rem;
-        cursor:pointer;
-        padding:1.1rem 1.6rem 1rem 1.6rem;
-        background-color:#212121;
-        color:#fff;
-        -webkit-transition:.3s;
-        transition:.3s
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .ktYxNr{
-            font-size:2.6rem
-        }
-    }
-    /*!sc*/
-    .ktYxNr:hover{
-        box-shadow:1rem 1rem 3.15rem 0 rgba(0,0,0,.25)
-    }
-    /*!sc*/
-    data-styled.g25[id=sc-ikkxIA]{
-        content:"ktYxNr,"
-    }
-    /*!sc*/
-    .hAkpqX{
-        padding:0 .6rem 0 0;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center
-    }
-    /*!sc*/
-    .hAkpqX svg{
-        height:2.3400000000000003rem;
-        margin:0;
-        padding:0;
-        fill:#fff
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .hAkpqX svg{
-            height:2.6rem
-        }
-    }
-    /*!sc*/
-    data-styled.g26[id=sc-dAbbOL]{
-        content:"hAkpqX,"
-    }
-    /*!sc*/
-    .bwctqR{
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        margin-top:auto;
-        margin-bottom:auto;
-        width:95%;
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        box-shadow:none;
-        border-radius:.8rem;
-        -webkit-animation:fadeIn 2s ease;
-        animation:fadeIn 2s ease;
-        -webkit-transition:width .3s;
-        transition:width .3s
-    }
-    /*!sc*/
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .bwctqR{
-            width:auto;
-            width:auto;
-            -webkit-flex-direction:row;
-            -ms-flex-direction:row;
-            flex-direction:row
-        }
-    }
-    /*!sc*/
-    @media screen and (min-width:1280px){
-        .bwctqR{
-            max-width:90vw
-        }
-    }
-    /*!sc*/
-    data-styled.g27[id=sc-feUZmu]{
-        content:"bwctqR,"
-    }
-    /*!sc*/
-    .heFqjo{
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-flex-direction:column;
-        -ms-flex-direction:column;
-        flex-direction:column;
-        width:100%;
-        border-radius:.8rem;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center;
-        background:0 0;
-        padding:3.5999999999999996rem;
-        padding:3.5999999999999996rem;
-        padding:2rem;
-        padding-top:3.5rem;
-        padding-bottom:6rem
-    }
-    /*!sc*/
-    @-webkit-keyframes fadeIn{
-        0%{
-            opacity:0
-        }
-        100%{
-            opacity:1
-        }
-    }
-    /*!sc*/
-    @keyframes fadeIn{
-        0%{
-            opacity:0
-        }
-        100%{
-            opacity:1
-        }
-    }
-    /*!sc*/
-    .heFqjo>:first-child{
-        margin-top:0!important;
-        margin-left:0!important
-    }
-    /*!sc*/
-    .heFqjo>:last-child{
-        margin-bottom:0!important;
-        margin-right:0!important
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .heFqjo{
-            width:100%;
-            border-radius:.8rem
-        }
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .heFqjo{
-            padding:6rem;
-            padding:6rem
-        }
-    }
-    /*!sc*/
-    data-styled.g28[id=sc-fUnMCh]{
-        content:"heFqjo,"
-    }
-    /*!sc*/
-    .dHHpbC>:first-child{
-        margin-top:0!important;
-        margin-left:0!important
-    }
-    /*!sc*/
-    .dHHpbC>:last-child{
-        margin-bottom:0!important;
-        margin-right:0!important
-    }
-    /*!sc*/
-    data-styled.g29[id=sc-hzhJZQ]{
-        content:"dHHpbC,"
-    }
-    /*!sc*/
-    .houdig{
-        width:100%;
-        min-height:100vh;
-        padding:5% 2.5%;
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-pack:center;
-        -webkit-justify-content:center;
-        -ms-flex-pack:center;
-        justify-content:center;
-        -webkit-align-items:center;
-        -webkit-box-align:center;
-        -ms-flex-align:center;
-        align-items:center;
-        background-image:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)),url(https://images.unsplash.com/photo-1547044479-59ce6c0a784a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEwMTg4M30);
-        background-position:center;
-        background-repeat:no-repeat;
-        background-size:cover;
-        overflow:auto;
-        color:rgba(0,0,0,.9);
-        font-family:Open Sans,-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif
-    }
-    /*!sc*/
-    @media screen and (min-width:1024px){
-        .houdig{
-            padding:2.5%;
-            padding:0
-        }
-    }
-    /*!sc*/
-    /*!sc*/
-    data-styled.g31[id=sc-fHjqPf]{
-        content:"houdig,"
-    }
-    /*!sc*/
-    </style>
-      <style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style>
-      <style type="text/css">iframe#teal-job-tracker-iframe-stable {
-         min-width: 380px !important;
-         width: 380px !important;
-         min-height: 100vh !important;
-         height: 100vh !important;
-         }
-         @media print {
-         #teal-job-tracker-root-stable, #teal-job-tracker-companion-root-stable {
-         display: none !important;
-         }
-         }
-      </style>
-   </head>
-   <body>
-      <div class="sc-fHjqPf houdig">
-         <div class="sc-feUZmu bwctqR">
-            <div class="sc-fUnMCh heFqjo">
-               <div class="sc-dAlyuH gnPinI">
-                  <div class="sc-cwHptR gObydx">
-                     <div class="sc-jlZhew gsJfOs">
-                        <h1 class="sc-iGgWBj fYFaLx">Nathan Grange</h1>
-                        <h2 class="sc-dcJsrY gBpjzk">Data Analytics - Customer Success - Implementation </h2>
-                     </div>
-                     <div class="sc-imWYAI dLpymK">
-                        <div class="sc-dhKdcB bOsUiC">
-                           <a href="https://www.linkedin.com/in/nathangrange/" target="_blank" class="sc-kpDqfm Iduff">
-                              <svg viewBox="0 0 24 24" fill="none">
-                                 <title>Linkedin icon</title>
-                                 <path d="M7.2 20.8h-4v-12h4v12zM5.202 7.2a2 2 0 11-.004-4 2 2 0 01.004 4zM21.6 20.8h-3.845v-5.84c0-1.393-.027-3.183-2-3.183-2.002 0-2.31 1.516-2.31 3.082V20.8H9.6V8.791h3.69v1.64h.054c.512-.944 1.768-1.939 3.64-1.939 3.896 0 4.616 2.488 4.616 5.722V20.8z"></path>
-                              </svg>
-                           </a>
-                        </div>
-                        <div class="sc-dhKdcB bOsUiC">
-                           <a href="mailto:ngrange@gmail.com" target="_blank" class="sc-kpDqfm Iduff">
-                              <svg viewBox="0 0 48 48" fill="none">
-                                 <title>Email</title>
-                                 <path d="M46.652 1.348L45.432.084 1.302 14.12l-.466 3.484L14.33 28.31 40.746 7.254 19.69 33.67l10.706 13.494 3.484-.466 14.036-44.13-1.264-1.22z"></path>
-                              </svg>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="sc-hzhJZQ dHHpbC">
-                  <div class="sc-fPXMVe hfKrcm">
-                     <div class="sc-cPiKLX lbUcHj">
-                        <p class="sc-eDPEul iTfvmd ql-align-justify">Passionate data analytics &amp; BI leader driving business excellence through data-driven insights. Skilled in gathering and utilizing data to guide initiatives for organizational goals. Adept at translating between technical and business audiences. Creative in solving unwieldy or challenging problems. Passionate about crafting cultures where collaboration and teamwork can thrive.</p>
-                     </div>
-                  </div>
-                  <div class="sc-gFqAkR bpuKdW .cta-button">
-                     <a href="https://ngrange.github.io/files/Nathan%20Grange.pdf" target="_blank" class="sc-ikkxIA ktYxNr">
-                        <div class="sc-dAbbOL hAkpqX">
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                              <path d="M25.983 13.342c.005-.114.017-.226.017-.342a8 8 0 00-8-8c-3.11 0-5.8 1.779-7.123 4.371A4.989 4.989 0 009 9c-2.53 0-4.599 1.885-4.932 4.324A5.997 5.997 0 006 25h18a5.998 5.998 0 001.983-11.658zm-7.276 5.365l-3 3a.997.997 0 01-1.414 0l-3-3a.999.999 0 111.414-1.414L14 18.586V13a1 1 0 112 0v5.586l1.293-1.293a.999.999 0 111.414 1.414z"></path>
-                           </svg>
-                        </div>
-                        <span>Resume</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Grange</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #2563EB;
+      --accent-light: #EFF6FF;
+      --text-primary: #0F172A;
+      --text-secondary: #475569;
+      --text-muted: #94A3B8;
+      --border: #E2E8F0;
+      --bg: #FFFFFF;
+      --bg-subtle: #F8FAFC;
+      --radius: 8px;
+      --max-width: 820px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.7;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text-primary);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    nav .links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    nav .links a {
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: color 0.15s;
+    }
+    nav .links a:hover { color: var(--accent); }
+
+    /* ── SECTIONS ── */
+    section { padding: 5rem 2rem; }
+    .inner { max-width: var(--max-width); margin: 0 auto; }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    h1, h2, h3 { letter-spacing: -0.02em; line-height: 1.2; }
+
+    /* ── HERO ── */
+    #hero {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      border-bottom: 1px solid var(--border);
+    }
+    #hero .inner { display: flex; flex-direction: column; gap: 2rem; }
+
+    .hero-name {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.05;
+    }
+    .hero-name span { color: var(--accent); }
+
+    .hero-tagline {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: var(--text-secondary);
+      max-width: 560px;
+      line-height: 1.6;
+    }
+
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .hero-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .hero-links a.primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .hero-links a.primary:hover { background: #1d4ed8; }
+    .hero-links a.secondary {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+    }
+    .hero-links a.secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── ABOUT ── */
+    #about { background: var(--bg); border-bottom: 1px solid var(--border); }
+    #about h2 { font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; }
+
+    .about-body { display: grid; gap: 1.5rem; }
+    .about-body p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+    .about-body p strong { color: var(--text-primary); font-weight: 600; }
+
+    .about-highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .highlight-card {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+    }
+    .highlight-card .number {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+    .highlight-card .label {
+      font-size: 0.825rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    /* ── EXPERIENCE ── */
+    #experience { background: var(--bg-subtle); border-bottom: 1px solid var(--border); }
+    #experience h2 { font-size: 2rem; font-weight: 700; margin-bottom: 2.5rem; }
+
+    .timeline { display: flex; flex-direction: column; gap: 0; }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .timeline-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .timeline-item:first-child { padding-top: 0; }
+
+    .job-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .job-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .job-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    .job-meta .company {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .job-meta .sep { color: var(--border); }
+    .job-bullets {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding-left: 0;
+      list-style: none;
+    }
+    .job-bullets li {
+      font-size: 0.925rem;
+      color: var(--text-secondary);
+      padding-left: 1.25rem;
+      position: relative;
+      line-height: 1.65;
+    }
+    .job-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.62em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      opacity: 0.5;
+    }
+
+    /* ── SKILLS ── */
+    #skills { background: var(--bg); border-bottom: 1px solid var(--border); }
+    #skills h2 { font-size: 2rem; font-weight: 700; margin-bottom: 2rem; }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+    .skill-category {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .skill-category h3 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .skill-tag {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.25rem 0.65rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    /* ── CONTACT ── */
+    #contact { background: var(--text-primary); }
+    #contact .inner { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1.5rem; }
+    #contact h2 { font-size: 2rem; font-weight: 700; color: #fff; }
+    #contact p { color: #94A3B8; font-size: 1rem; max-width: 480px; }
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    .contact-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .contact-links a.primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .contact-links a.primary:hover { background: #1d4ed8; }
+    .contact-links a.ghost {
+      background: transparent;
+      color: #CBD5E1;
+      border: 1px solid #334155;
+    }
+    .contact-links a.ghost:hover { border-color: #64748B; color: #fff; }
+
+    footer {
+      background: var(--text-primary);
+      border-top: 1px solid #1E293B;
+      text-align: center;
+      padding: 1.5rem 2rem;
+      font-size: 0.8rem;
+      color: #475569;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      section { padding: 3.5rem 1.25rem; }
+      nav .links { gap: 1.25rem; }
+      .hero-name { font-size: 2.25rem; }
+      .about-highlights { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="inner">
+      <a class="logo" href="#hero">Nathan Grange</a>
+      <ul class="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="inner">
+      <div>
+        <h1 class="hero-name">Nathan<br /><span>Grange</span></h1>
       </div>
-      <!-- <div id="teal-job-tracker-root-stable" style="z-index: 2147483647;"><iframe id="teal-job-tracker-iframe-stable" style="background: rgb(255, 255, 255) !important; width: 380px !important; height: 100vh !important; position: fixed !important; inset: 0px -380px auto auto !important; z-index: 2147483647 !important; border: 0px !important; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 16px -3px !important; transition: right 0.25s ease-in-out 0s !important; transform: none !important;" src="./Nathan Grange&#39;s Personal Website_files/saved_resource.html"></iframe></div>
-      <div id="teal-job-tracker-companion-root-stable" style="display: block; z-index: 2147483646; bottom: 58px; right: 0px; position: fixed; height: 60px; width: auto;"></div> -->
-   </body>
+      <p class="hero-tagline">
+        Data &amp; technology leader with 15+ years turning complex systems, messy data, and ambitious teams into outcomes that actually matter.
+      </p>
+      <div class="hero-links">
+        <a class="primary" href="mailto:ngrange@gmail.com">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Get in touch
+        </a>
+        <a class="secondary" href="https://www.linkedin.com/in/nathangrange" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a class="secondary" href="https://github.com/ngrange" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.09.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.577.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a class="secondary" href="tel:8014556228">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12 19.79 19.79 0 0 1 1.15 3.38 2 2 0 0 1 3.12 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          801.455.6228
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="inner">
+      <p class="section-label">About</p>
+      <h2>I don't fit in one box.<br />That's the point.</h2>
+      <div class="about-body">
+        <p>
+          Most people who've spent 15 years in data end up deep in one lane — pure engineering, pure analytics, or pure management. I went a different direction. I've <strong>architected enterprise data warehouses</strong>, led <strong>healthcare analytics functions</strong> built from scratch, managed <strong>enterprise client relationships at the CIO and CMO level</strong>, and driven <strong>complex technology implementations</strong> across high-growth SaaS organizations. I've done all of it hands-on, and I've done all of it in the notoriously complex world of healthcare.
+        </p>
+        <p>
+          What connects those experiences isn't a job title — it's a belief that <strong>data is only as valuable as the clarity it creates</strong>. I've spent my career making sure the right people had the right information to make the right calls: whether that was a health system CIO rethinking their data strategy, a payer stakeholder reviewing ACO performance, or an engineering team that needed someone to translate business reality into architecture decisions.
+        </p>
+        <p>
+          I lead as a <strong>player-coach</strong>. I build teams, but I stay close to the work. I set direction, but I'm comfortable getting into the SQL, the data model, or the client meeting when that's what the situation demands. I don't delegate understanding — I earn it, and then I use it to make my team and my organization better.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="number">15+</div>
+            <div class="label">Years in data &amp; technology leadership</div>
+          </div>
+          <div class="highlight-card">
+            <div class="number">10</div>
+            <div class="label">Direct reports managed across engineering &amp; analytics</div>
+          </div>
+          <div class="highlight-card">
+            <div class="number">$3.5M</div>
+            <div class="label">Recurring revenue from analytics platforms on AWS &amp; Azure</div>
+          </div>
+          <div class="highlight-card">
+            <div class="number">75%</div>
+            <div class="label">Reduction in data errors through governance &amp; validation frameworks</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="inner">
+      <p class="section-label">Experience</p>
+      <h2>Where I've been</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="job-header">
+            <div class="job-title">Senior Implementation Director</div>
+            <div class="job-meta">
+              <span class="company">Millennia Payment Solutions</span>
+              <span class="sep">·</span>
+              <span>May 2024 – Aug 2025</span>
+              <span class="sep">·</span>
+              <span>Salt Lake City, UT</span>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li>Built and led the analytics function from the ground up — data models, ingestion pipelines, reporting infrastructure, and team of 10 including data engineers, analysts, implementation specialists, and a Data Director.</li>
+            <li>Reduced data errors by 75% through methodology documentation, data quality standards, and structured validation automation — directly restoring client confidence in platform outputs.</li>
+            <li>Accelerated client onboarding timelines by 30% by standardizing analytical frameworks and integration patterns across product and engineering.</li>
+            <li>Owned senior client relationships at the executive level, conducting performance reviews and proactively resolving delivery risk before it became a satisfaction issue.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="job-header">
+            <div class="job-title">Technical Director &amp; Senior Technical Director</div>
+            <div class="job-meta">
+              <span class="company">Health Catalyst</span>
+              <span class="sep">·</span>
+              <span>Aug 2016 – Dec 2023</span>
+              <span class="sep">·</span>
+              <span>7 years</span>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li>Led healthcare analytics strategy and delivery for enterprise health system and ACO clients — building the data models, savings methodologies, and population health frameworks that powered value-based care performance measurement and payer reporting.</li>
+            <li>Developed clinical analytics models using medical and pharmacy claims data (ICD-10, CPT/HCPCS, 837 EDI, Medicare CCLF) supporting ACO performance, risk-based contract analytics, and PMPM savings estimation.</li>
+            <li>Delivered analytics platforms on AWS and Azure generating $3.5M in recurring revenue by connecting population health data to measurable clinical and financial outcomes.</li>
+            <li>Managed teams of 6–10 including data scientists, engineers, architects, and senior managers — developing analytical talent while maintaining hands-on involvement in complex data model development.</li>
+            <li>Functioned as general manager for 2–3 enterprise accounts concurrently, maintaining strategic relationships at the CIO, CMO, and VP level with monthly reviews and quarterly senior business reviews.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="job-header">
+            <div class="job-title">Senior Data Architect</div>
+            <div class="job-meta">
+              <span class="company">Health Catalyst</span>
+              <span class="sep">·</span>
+              <span>Oct 2014 – Aug 2016</span>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li>Designed enterprise data warehouse architecture and ETL frameworks supporting claims analytics and population health reporting across health system clients.</li>
+            <li>Built dimensional data models across medical claims, pharmacy, ICD-10 coded clinical data, and CPT/HCPCS procedure data — increasing reporting accuracy and analytical adoption.</li>
+            <li>Reduced reporting errors by 45% through structured validation automation and consistent data definition enforcement across all claims and utilization pipelines.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="job-header">
+            <div class="job-title">Director of Information Technology</div>
+            <div class="job-meta">
+              <span class="company">Action Target</span>
+              <span class="sep">·</span>
+              <span>Jan 2010 – Oct 2014</span>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li>Led enterprise technology and data systems supporting manufacturing and commercial operations with up to 10 direct reports.</li>
+            <li>Delivered $1.2M in annual savings through ERP modernization and process automation.</li>
+            <li>Reduced recurring system issues by 85% through governance and change management practices.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="job-header">
+            <div class="job-title">Education</div>
+            <div class="job-meta">
+              <span class="company">Utah State University</span>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li>Bachelor of Science, Mechanical Engineering</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="inner">
+      <p class="section-label">Skills</p>
+      <h2>What I bring</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>Data &amp; Analytics</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL (T-SQL, PL/SQL)</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">ETL / ELT</span>
+            <span class="skill-tag">Data Warehousing</span>
+            <span class="skill-tag">Data Modeling</span>
+            <span class="skill-tag">Data Governance</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Healthcare Claims</span>
+            <span class="skill-tag">ICD-10 / CPT / HCPCS</span>
+            <span class="skill-tag">837 EDI</span>
+            <span class="skill-tag">Medicare CCLF</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Cloud &amp; Infrastructure</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">Microsoft SQL Server</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Oracle</span>
+            <span class="skill-tag">Apache NiFi</span>
+            <span class="skill-tag">Managed File Transfer</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Leadership &amp; Delivery</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Team Building</span>
+            <span class="skill-tag">Player-Coach</span>
+            <span class="skill-tag">Agile / Waterfall</span>
+            <span class="skill-tag">Program Management</span>
+            <span class="skill-tag">Cross-functional Leadership</span>
+            <span class="skill-tag">Hiring &amp; Mentoring</span>
+            <span class="skill-tag">Distributed Teams</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Client &amp; Stakeholder</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Executive Engagement</span>
+            <span class="skill-tag">Client Success</span>
+            <span class="skill-tag">QBR / SBR</span>
+            <span class="skill-tag">Account Management</span>
+            <span class="skill-tag">Onboarding</span>
+            <span class="skill-tag">Escalation Management</span>
+            <span class="skill-tag">Growth Planning</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Domain Expertise</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Healthcare SaaS</span>
+            <span class="skill-tag">Value-Based Care</span>
+            <span class="skill-tag">ACO Analytics</span>
+            <span class="skill-tag">Population Health</span>
+            <span class="skill-tag">Risk-Based Contracts</span>
+            <span class="skill-tag">Payer Reporting</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Strategy &amp; Operations</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Strategy</span>
+            <span class="skill-tag">KPI Development</span>
+            <span class="skill-tag">Process Improvement</span>
+            <span class="skill-tag">Change Management</span>
+            <span class="skill-tag">Vendor Management</span>
+            <span class="skill-tag">ERP Modernization</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="inner">
+      <h2>Let's talk.</h2>
+      <p>I'm actively exploring new opportunities across data leadership, analytics, implementation, and client success. If what you've read resonates, I'd love to connect.</p>
+      <div class="contact-links">
+        <a class="primary" href="mailto:ngrange@gmail.com">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          ngrange@gmail.com
+        </a>
+        <a class="ghost" href="https://www.linkedin.com/in/nathangrange" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a class="ghost" href="tel:8014556228">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12 19.79 19.79 0 0 1 1.15 3.38 2 2 0 0 1 3.12 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          801.455.6228
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Nathan Grange · Salt Lake City, UT
+  </footer>
+
+</body>
 </html>
